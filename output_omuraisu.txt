@@ -1,0 +1,6 @@
+1.ターミナル上でoutput_omuraisu.pyが存在するディレクトリまでコマンドcdを使って移動する。
+2.output_omuraisu.pyが存在するディレクトリで、
+
+$ python output_omuraisu.py
+
+と入力すると出力される。
