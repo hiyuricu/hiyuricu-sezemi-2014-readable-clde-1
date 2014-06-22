@@ -4,4 +4,6 @@
 import sys
 import string
 
-print u"オムライス"
+rf = open('omuraisu_recipe_data.txt').read()
+
+print rf
