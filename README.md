@@ -26,7 +26,8 @@
   * YAML
     * スペースによるインデントを使ってデータの階層構造を示す
     * XMLやJSONと違って、ファイルの中身のほとんどがデータのため、手作業でのメンテナンスが必要な各種データファイルに適している
-`JFrame:
+```
+JFrame:
     defaultCloseOperation: JFrame.EXIT_ON_CLOSE
     title: Test Frame
     width: 800
@@ -42,7 +43,7 @@
         - JButton:
              name: button2
              text: Button 2
-`
+```
 
 JSON　中かっこ（{}）と角かっこ（[]）によってデータの階層構造を示す　効率性の向上やファイルサイズの節約に適している　
 [
