@@ -45,7 +45,10 @@ JFrame:
              text: Button 2
 ```
 
-JSON　中かっこ（{}）と角かっこ（[]）によってデータの階層構造を示す　効率性の向上やファイルサイズの節約に適している　
+  * JSON
+    * 中かっこ（{}）と角かっこ（[]）によってデータの階層構造を示す
+    * 効率性の向上やファイルサイズの節約に適している　
+```
 [
   {"path": "C:\\Download\\paper",
    "extension": ["pdf", "doc"],
@@ -54,8 +57,10 @@ JSON　中かっこ（{}）と角かっこ（[]）によってデータの階層
    "extension": ["mp3", "wav", "mp4"],
    "destination": ["C:\\Dropbox\\音楽\\*", "C:\\My Music\\*"]}
 ]
-
-XML　タグのネストによってデータの階層構造を示す
+```
+  * XML
+    * タグのネストによってデータの階層構造を示す
+```
 <?xml version="1.0"?>
 <catalog>
    <book id="bk112">
@@ -70,3 +75,4 @@ XML　タグのネストによってデータの階層構造を示す
       environment.</description>
    </book>
 </catalog>
+```
